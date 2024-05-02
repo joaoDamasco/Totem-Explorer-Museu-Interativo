@@ -16,26 +16,7 @@ namespace Project_Pim.Modelo
         public static string Resposta3;
         public static string Resposta4;
         public static string Resposta5;
-
+        // Define uma lista estática para armazenar strings utilizadas em pesquisas.
         public static List<string> ListaPesquisa = new List<string>();
     }
-
-    public static class VerificadorResposta
-    {
-        // Método para verificar e pintar de vermelho os RadioButton respondio errado
-        public static void PintarRespostaIncorreta(GroupBox groupBox, string respostaCorreta)
-        {
-            foreach (RadioButton item in groupBox.Controls.OfType<RadioButton>())
-            {
-                // Verifica se o texto do RadioButton corresponde à resposta correta e se ele não está marcado
-                if (item.Text.Substring(0, 1).Equals(respostaCorreta) && !item.Checked)
-                {
-                    // pinta o texto do RadioButton de vermelho
-                    item.ForeColor = Color.Red;
-                }
-            }
-        }
-    }
-
-
 }
