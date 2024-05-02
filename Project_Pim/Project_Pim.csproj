@@ -106,7 +106,9 @@
     <Compile Include="Apresentacao\FrmResultado.Designer.cs">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Controle.cs" />
     <Compile Include="Modelo\Estatico.cs" />
+    <Compile Include="Modelo\Validacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Apresentacao\FrmAdmin.resx">

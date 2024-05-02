@@ -4,10 +4,15 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+
 namespace Project_Pim
 {
     public partial class FrmResultado : Form
     {
+        private System.Windows.Forms.GroupBox groupBox;
+        private string respostaCorreta;
+
         public FrmResultado()
         {
             InitializeComponent();
@@ -23,12 +28,13 @@ namespace Project_Pim
 
         private void FrmResultado_Load(object sender, EventArgs e)
         {
-            // Chamo o método estatico para verificar e alterar a cor da resposta errada
-            VerificadorResposta.PintarRespostaIncorreta(grbPergunta1, Estatico.Resposta1);
-            VerificadorResposta.PintarRespostaIncorreta(grbPergunta2, Estatico.Resposta2);
-            VerificadorResposta.PintarRespostaIncorreta(grbPergunta3, Estatico.Resposta3);
-            VerificadorResposta.PintarRespostaIncorreta(grbPergunta4, Estatico.Resposta4);
-            VerificadorResposta.PintarRespostaIncorreta(grbPergunta5, Estatico.Resposta5);
+            // Instancia um objeto Controle e valida as respostas das perguntas utilizando os valores estáticos de Resposta.
+            Controle controle = new Controle();
+            controle.ValidarResposta(grbPergunta1, Estatico.Resposta1);
+            controle.ValidarResposta(grbPergunta2, Estatico.Resposta2);
+            controle.ValidarResposta(grbPergunta3, Estatico.Resposta3);
+            controle.ValidarResposta(grbPergunta4, Estatico.Resposta4);
+            controle.ValidarResposta(grbPergunta5, Estatico.Resposta5);
         }
     }
 }
