@@ -36,3 +36,18 @@ C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.csproj.CoreCompileInputs.cache
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.exe
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.pdb
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\bin\Debug\Project_Pim.exe.config
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\bin\Debug\Project_Pim.exe
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\bin\Debug\Project_Pim.pdb
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.csproj.AssemblyReference.cache
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmHistoria1.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmMenu.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmPesquisa.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmPrincipal.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmQuestionario.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmResultado.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Properties.Resources.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.csproj.GenerateResource.cache
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.csproj.CoreCompileInputs.cache
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.exe
+C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim\Project_Pim\obj\Debug\Project_Pim.pdb

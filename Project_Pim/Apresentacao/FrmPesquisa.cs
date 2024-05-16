@@ -22,37 +22,54 @@ namespace Project_Pim
         private void btnLetra_Click(object sender, EventArgs e)
         {
             // Adiciona o texto do botão
-            rtbPesquisa.Text += (sender as Button).Text;
+            txbNome.Text += (sender as Button).Text;
+
+        }
+        
+        private void btnLetra_ClickNumero(object sender, EventArgs e)
+        {
+            // Adiciona o texto do botão
+            txbIdade.Text += (sender as Button).Text;
 
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             // Limpa campo de texto
-            rtbPesquisa.Text = "";
+            txbNome.Text = "";
+            txbIdade.Text = "";
         }
 
         private void btnApagar_Click(object sender, EventArgs e)
         {
             // Remove o último caractere
-            if (rtbPesquisa.Text != "")
+            if (txbNome.Text != "")
             {
-                rtbPesquisa.Text = rtbPesquisa.Text.Substring(0, rtbPesquisa.TextLength - 1);
+                txbNome.Text = txbNome.Text.Substring(0, txbNome.TextLength - 1);
             }
             
         }
 
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
-            Estatico.ListaPesquisa.Add(rtbPesquisa.Text);
+   
+            Estatico.ListaPesquisa.Add(txbNome.Text);
+            Estatico.ListaPesquisa.Add(txbIdade.Text);
 
-         // Fecha o formulário de pesquisa e exibe o formulário principal
-            FrmPrincipal frmPrincipal = new FrmPrincipal();
+         // Fecha o formulário de pesquisa e exibe o formulário Menu
+            FrmMenu frmMenu = new FrmMenu();
 
-            frmPrincipal.Visible = true;
+            frmMenu.Visible = true;
 
             this.Close();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal frmPrincipal = new FrmPrincipal();
+            frmPrincipal.Visible = true;
+            this.Close();
         }
     }
 }

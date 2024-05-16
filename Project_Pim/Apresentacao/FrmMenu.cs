@@ -27,40 +27,16 @@ namespace Project_Pim
 
         }
 
-        private void btnHistoria2_Click(object sender, EventArgs e)
-        {
-            FrmHistoriaApollo frmApollo = new FrmHistoriaApollo();
-
-            frmApollo.Show();
-
-            this.Visible = false;
-        }
-
-        private void btnHistoria3_Click(object sender, EventArgs e)
-        {
-            FrmHistoriaAstronauta frmHistoriaAstronauta = new FrmHistoriaAstronauta();
-
-            frmHistoriaAstronauta.Show();
-
-            this.Visible = false;
-        }
-
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
-            FrmQuestionario frmQuestionario = new FrmQuestionario();
-
-            frmQuestionario.Show();
-
+            FrmPrincipal frmprincipal = new FrmPrincipal();
+            frmprincipal.Show();
             this.Visible = false;
         }
 
-        private void btnAdmin_Click(object sender, EventArgs e)
+        private void pcbIndicador_Click(object sender, EventArgs e)
         {
-            FrmAdmin frmAdmin = new FrmAdmin();
 
-            frmAdmin.Show();
-
-            this.Visible = false;
         }
     }
 }

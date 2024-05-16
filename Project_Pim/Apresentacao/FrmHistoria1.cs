@@ -19,10 +19,17 @@ namespace Project_Pim
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            FrmMenu frmMenu = new FrmMenu();
+            FrmQuestionario frmQuestionario = new FrmQuestionario();
 
-            frmMenu.Visible = true;
+            frmQuestionario.Visible = true;
 
+            this.Close();
+        }
+
+        private void btnFinalizar_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal frmPrincipal = new FrmPrincipal();
+            frmPrincipal.Visible = true;
             this.Close();
         }
     }

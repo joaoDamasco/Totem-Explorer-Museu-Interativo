@@ -29,86 +29,81 @@
         private void InitializeComponent()
         {
             this.btnHistoria1 = new System.Windows.Forms.Button();
-            this.btnHistoria2 = new System.Windows.Forms.Button();
-            this.btnHistoria3 = new System.Windows.Forms.Button();
-            this.btnFinalizar = new System.Windows.Forms.Button();
-            this.btnAdmin = new System.Windows.Forms.Button();
+            this.btnTelaPrincipal = new System.Windows.Forms.Button();
+            this.lblBemVindo = new System.Windows.Forms.Label();
+            this.pcbApontar = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbApontar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHistoria1
             // 
             this.btnHistoria1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnHistoria1.BackColor = System.Drawing.Color.Transparent;
+            this.btnHistoria1.BackColor = System.Drawing.Color.Black;
             this.btnHistoria1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHistoria1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoria1.ForeColor = System.Drawing.Color.Cyan;
-            this.btnHistoria1.Location = new System.Drawing.Point(232, 62);
+            this.btnHistoria1.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHistoria1.Location = new System.Drawing.Point(166, 180);
             this.btnHistoria1.Name = "btnHistoria1";
-            this.btnHistoria1.Size = new System.Drawing.Size(237, 50);
+            this.btnHistoria1.Size = new System.Drawing.Size(341, 50);
             this.btnHistoria1.TabIndex = 0;
-            this.btnHistoria1.Text = "História Do Foguete";
+            this.btnHistoria1.Text = "Iniciar História e Quiz de Perguntas";
             this.btnHistoria1.UseVisualStyleBackColor = false;
             this.btnHistoria1.Click += new System.EventHandler(this.btnHistoria1_Click);
             // 
-            // btnHistoria2
+            // btnTelaPrincipal
             // 
-            this.btnHistoria2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnHistoria2.BackColor = System.Drawing.Color.Transparent;
-            this.btnHistoria2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistoria2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoria2.ForeColor = System.Drawing.Color.Cyan;
-            this.btnHistoria2.Location = new System.Drawing.Point(232, 118);
-            this.btnHistoria2.Name = "btnHistoria2";
-            this.btnHistoria2.Size = new System.Drawing.Size(237, 50);
-            this.btnHistoria2.TabIndex = 4;
-            this.btnHistoria2.Text = "História Apollo 11";
-            this.btnHistoria2.UseVisualStyleBackColor = false;
-            this.btnHistoria2.Click += new System.EventHandler(this.btnHistoria2_Click);
+            this.btnTelaPrincipal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnTelaPrincipal.BackColor = System.Drawing.Color.Black;
+            this.btnTelaPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTelaPrincipal.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTelaPrincipal.ForeColor = System.Drawing.Color.White;
+            this.btnTelaPrincipal.Location = new System.Drawing.Point(12, 12);
+            this.btnTelaPrincipal.Name = "btnTelaPrincipal";
+            this.btnTelaPrincipal.Size = new System.Drawing.Size(68, 66);
+            this.btnTelaPrincipal.TabIndex = 6;
+            this.btnTelaPrincipal.Text = "Tela Inicial";
+            this.btnTelaPrincipal.UseVisualStyleBackColor = false;
+            this.btnTelaPrincipal.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
-            // btnHistoria3
+            // lblBemVindo
             // 
-            this.btnHistoria3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnHistoria3.BackColor = System.Drawing.Color.Transparent;
-            this.btnHistoria3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistoria3.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoria3.ForeColor = System.Drawing.Color.Cyan;
-            this.btnHistoria3.Location = new System.Drawing.Point(232, 174);
-            this.btnHistoria3.Name = "btnHistoria3";
-            this.btnHistoria3.Size = new System.Drawing.Size(237, 50);
-            this.btnHistoria3.TabIndex = 5;
-            this.btnHistoria3.Text = "História dos Astrounautas";
-            this.btnHistoria3.UseVisualStyleBackColor = false;
-            this.btnHistoria3.Click += new System.EventHandler(this.btnHistoria3_Click);
+            this.lblBemVindo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblBemVindo.AutoSize = true;
+            this.lblBemVindo.BackColor = System.Drawing.Color.Black;
+            this.lblBemVindo.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBemVindo.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblBemVindo.Location = new System.Drawing.Point(204, 78);
+            this.lblBemVindo.Name = "lblBemVindo";
+            this.lblBemVindo.Size = new System.Drawing.Size(288, 46);
+            this.lblBemVindo.TabIndex = 8;
+            this.lblBemVindo.Text = "Seja Bem-Vindo";
             // 
-            // btnFinalizar
+            // pcbApontar
             // 
-            this.btnFinalizar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnFinalizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinalizar.ForeColor = System.Drawing.Color.Cyan;
-            this.btnFinalizar.Location = new System.Drawing.Point(251, 288);
-            this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(200, 50);
-            this.btnFinalizar.TabIndex = 6;
-            this.btnFinalizar.Text = "Avançar";
-            this.btnFinalizar.UseVisualStyleBackColor = false;
-            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
+            this.pcbApontar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbApontar.BackColor = System.Drawing.Color.Transparent;
+            this.pcbApontar.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbApontar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbApontar.Location = new System.Drawing.Point(513, 180);
+            this.pcbApontar.Name = "pcbApontar";
+            this.pcbApontar.Size = new System.Drawing.Size(100, 50);
+            this.pcbApontar.TabIndex = 9;
+            this.pcbApontar.TabStop = false;
             // 
-            // btnAdmin
+            // pcbIndicador
             // 
-            this.btnAdmin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAdmin.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdmin.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnAdmin.Location = new System.Drawing.Point(590, 364);
-            this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(106, 34);
-            this.btnAdmin.TabIndex = 7;
-            this.btnAdmin.Text = "Admin";
-            this.btnAdmin.UseVisualStyleBackColor = false;
-            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+            this.pcbIndicador.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pcbIndicador.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador.Location = new System.Drawing.Point(86, 24);
+            this.pcbIndicador.Name = "pcbIndicador";
+            this.pcbIndicador.Size = new System.Drawing.Size(39, 41);
+            this.pcbIndicador.TabIndex = 10;
+            this.pcbIndicador.TabStop = false;
+            this.pcbIndicador.Click += new System.EventHandler(this.pcbIndicador_Click);
             // 
             // FrmMenu
             // 
@@ -117,25 +112,28 @@
             this.BackgroundImage = global::Project_Pim.Properties.Resources.Menu;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(708, 410);
-            this.Controls.Add(this.btnAdmin);
-            this.Controls.Add(this.btnFinalizar);
-            this.Controls.Add(this.btnHistoria3);
-            this.Controls.Add(this.btnHistoria2);
+            this.Controls.Add(this.pcbIndicador);
+            this.Controls.Add(this.pcbApontar);
+            this.Controls.Add(this.lblBemVindo);
+            this.Controls.Add(this.btnTelaPrincipal);
             this.Controls.Add(this.btnHistoria1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenu";
             this.Text = "FrmMenu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pcbApontar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnHistoria1;
-        private System.Windows.Forms.Button btnHistoria2;
-        private System.Windows.Forms.Button btnHistoria3;
-        private System.Windows.Forms.Button btnFinalizar;
-        private System.Windows.Forms.Button btnAdmin;
+        private System.Windows.Forms.Button btnTelaPrincipal;
+        private System.Windows.Forms.Label lblBemVindo;
+        private System.Windows.Forms.PictureBox pcbApontar;
+        private System.Windows.Forms.PictureBox pcbIndicador;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Pim.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,11 +20,17 @@ namespace Project_Pim
 
         private void pcbMenu_Click(object sender, EventArgs e)
         {
-            FrmMenu frmMenu = new FrmMenu();
+            FrmPesquisa frmpesquisa = new FrmPesquisa();
 
-            frmMenu.Show();
+            frmpesquisa.Show();
             
             this.Visible = false;
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            Estatico.Valor = 0;
+            Estatico.ListaPesquisa.Clear();
         }
     }
 }

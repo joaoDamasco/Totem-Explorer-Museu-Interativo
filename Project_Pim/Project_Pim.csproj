@@ -46,29 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apresentacao\FrmAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentacao\FrmAdmin.Designer.cs">
-      <DependentUpon>FrmAdmin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Apresentacao\FrmHistoria1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentacao\FrmHistoria1.Designer.cs">
       <DependentUpon>FrmHistoria1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Apresentacao\FrmHistoriaApollo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentacao\FrmHistoriaApollo.Designer.cs">
-      <DependentUpon>FrmHistoriaApollo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Apresentacao\FrmHistoriaAstronauta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentacao\FrmHistoriaAstronauta.Designer.cs">
-      <DependentUpon>FrmHistoriaAstronauta.cs</DependentUpon>
     </Compile>
     <Compile Include="Apresentacao\FrmMenu.cs">
       <SubType>Form</SubType>
@@ -94,34 +76,17 @@
     <Compile Include="Apresentacao\FrmQuestionario.Designer.cs">
       <DependentUpon>FrmQuestionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Apresentacao\FrmRelatorio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentacao\FrmRelatorio.Designer.cs">
-      <DependentUpon>FrmRelatorio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Apresentacao\FrmResultado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentacao\FrmResultado.Designer.cs">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modelo\Controle.cs" />
     <Compile Include="Modelo\Estatico.cs" />
-    <Compile Include="Modelo\Validacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Apresentacao\FrmAdmin.resx">
-      <DependentUpon>FrmAdmin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmHistoria1.resx">
       <DependentUpon>FrmHistoria1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apresentacao\FrmHistoriaApollo.resx">
-      <DependentUpon>FrmHistoriaApollo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apresentacao\FrmHistoriaAstronauta.resx">
-      <DependentUpon>FrmHistoriaAstronauta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -134,9 +99,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmQuestionario.resx">
       <DependentUpon>FrmQuestionario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apresentacao\FrmRelatorio.resx">
-      <DependentUpon>FrmRelatorio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmResultado.resx">
       <DependentUpon>FrmResultado.cs</DependentUpon>
@@ -165,13 +127,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Apollo11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApolloLua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apontando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buzz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrelaBranca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foguete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foguete2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Galaxy.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LuaMenu.png" />
+    <None Include="Resources\Galaxy2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Menu.jpg" />
+    <None Include="Resources\LuaMenu.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LuaMenu1.png" />
@@ -180,25 +166,19 @@
     <None Include="Resources\LuaMenu2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\foguete.jpg" />
+    <None Include="Resources\LuaPrincipal.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Apollo11.jpg" />
+    <None Include="Resources\LuaPrincipal2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ApolloLua.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Foguete2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Nail.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Buzz.jpg" />
+    <None Include="Resources\Menu.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Michael.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nail.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

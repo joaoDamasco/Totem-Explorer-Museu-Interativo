@@ -28,328 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.rtbPergunta1 = new System.Windows.Forms.RichTextBox();
-            this.rdbPergunta1A = new System.Windows.Forms.RadioButton();
-            this.grbPergunta1 = new System.Windows.Forms.GroupBox();
-            this.rdbPergunta1B = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta1C = new System.Windows.Forms.RadioButton();
-            this.grbPergunta2 = new System.Windows.Forms.GroupBox();
-            this.rdbPergunta2B = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta2C = new System.Windows.Forms.RadioButton();
-            this.rtbPergunta2 = new System.Windows.Forms.RichTextBox();
-            this.rdbPergunta2A = new System.Windows.Forms.RadioButton();
-            this.grbPergunta4 = new System.Windows.Forms.GroupBox();
-            this.rdbPergunta4B = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta4C = new System.Windows.Forms.RadioButton();
-            this.rtbPergunta4 = new System.Windows.Forms.RichTextBox();
-            this.rdbPergunta4A = new System.Windows.Forms.RadioButton();
-            this.grbPergunta3 = new System.Windows.Forms.GroupBox();
-            this.rdbPergunta3B = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta3C = new System.Windows.Forms.RadioButton();
-            this.rtbPergunta3 = new System.Windows.Forms.RichTextBox();
-            this.rdbPergunta3A = new System.Windows.Forms.RadioButton();
-            this.grbPergunta5 = new System.Windows.Forms.GroupBox();
-            this.rdbPergunta5B = new System.Windows.Forms.RadioButton();
-            this.rdbPergunta5C = new System.Windows.Forms.RadioButton();
-            this.rtbPergunta5 = new System.Windows.Forms.RichTextBox();
-            this.rdbPergunta5A = new System.Windows.Forms.RadioButton();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.grbPergunta1.SuspendLayout();
-            this.grbPergunta2.SuspendLayout();
-            this.grbPergunta4.SuspendLayout();
-            this.grbPergunta3.SuspendLayout();
-            this.grbPergunta5.SuspendLayout();
+            this.rtbPergunta1 = new System.Windows.Forms.RichTextBox();
+            this.lblPergunta1 = new System.Windows.Forms.Label();
+            this.btnSim1 = new System.Windows.Forms.Button();
+            this.btnNao1 = new System.Windows.Forms.Button();
+            this.lblPergunta2 = new System.Windows.Forms.Label();
+            this.rtbPergunta2 = new System.Windows.Forms.RichTextBox();
+            this.lblPergunta3 = new System.Windows.Forms.Label();
+            this.rtbPergunta3 = new System.Windows.Forms.RichTextBox();
+            this.btnNao4 = new System.Windows.Forms.Button();
+            this.btnSim4 = new System.Windows.Forms.Button();
+            this.lblPergunta4 = new System.Windows.Forms.Label();
+            this.rtbPergunta4 = new System.Windows.Forms.RichTextBox();
+            this.lblPergunta5 = new System.Windows.Forms.Label();
+            this.rtbPergunta5 = new System.Windows.Forms.RichTextBox();
+            this.lblPergunta6 = new System.Windows.Forms.Label();
+            this.rtbPergunta6 = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnNao5 = new System.Windows.Forms.Button();
+            this.btnSim5 = new System.Windows.Forms.Button();
+            this.btnNao2 = new System.Windows.Forms.Button();
+            this.btnSim2 = new System.Windows.Forms.Button();
+            this.btnNao6 = new System.Windows.Forms.Button();
+            this.btnSim6 = new System.Windows.Forms.Button();
+            this.btnNao3 = new System.Windows.Forms.Button();
+            this.btnSim3 = new System.Windows.Forms.Button();
+            this.lblPontuacao = new System.Windows.Forms.Label();
+            this.pgbPontuacao = new System.Windows.Forms.ProgressBar();
+            this.pcbIndicador9 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador8 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador6 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador2 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador3 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador4 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador7 = new System.Windows.Forms.PictureBox();
+            this.pcbIndicador1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pcbIndicador5 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rtbPergunta1
-            // 
-            this.rtbPergunta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbPergunta1.Location = new System.Drawing.Point(6, 28);
-            this.rtbPergunta1.Name = "rtbPergunta1";
-            this.rtbPergunta1.ReadOnly = true;
-            this.rtbPergunta1.Size = new System.Drawing.Size(413, 96);
-            this.rtbPergunta1.TabIndex = 0;
-            this.rtbPergunta1.Text = "Quem foi o primeiro astronauta a pisar na Lua durante a missão Apollo 11?";
-            // 
-            // rdbPergunta1A
-            // 
-            this.rdbPergunta1A.AutoSize = true;
-            this.rdbPergunta1A.Checked = true;
-            this.rdbPergunta1A.Location = new System.Drawing.Point(6, 130);
-            this.rdbPergunta1A.Name = "rdbPergunta1A";
-            this.rdbPergunta1A.Size = new System.Drawing.Size(105, 17);
-            this.rdbPergunta1A.TabIndex = 1;
-            this.rdbPergunta1A.TabStop = true;
-            this.rdbPergunta1A.Text = "a) Neil Armstrong";
-            this.rdbPergunta1A.UseVisualStyleBackColor = true;
-            // 
-            // grbPergunta1
-            // 
-            this.grbPergunta1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grbPergunta1.Controls.Add(this.rdbPergunta1B);
-            this.grbPergunta1.Controls.Add(this.rdbPergunta1C);
-            this.grbPergunta1.Controls.Add(this.rtbPergunta1);
-            this.grbPergunta1.Controls.Add(this.rdbPergunta1A);
-            this.grbPergunta1.Location = new System.Drawing.Point(62, 110);
-            this.grbPergunta1.Name = "grbPergunta1";
-            this.grbPergunta1.Size = new System.Drawing.Size(439, 153);
-            this.grbPergunta1.TabIndex = 2;
-            this.grbPergunta1.TabStop = false;
-            this.grbPergunta1.Text = "Pergunta 1";
-            // 
-            // rdbPergunta1B
-            // 
-            this.rdbPergunta1B.AutoSize = true;
-            this.rdbPergunta1B.Location = new System.Drawing.Point(136, 130);
-            this.rdbPergunta1B.Name = "rdbPergunta1B";
-            this.rdbPergunta1B.Size = new System.Drawing.Size(89, 17);
-            this.rdbPergunta1B.TabIndex = 3;
-            this.rdbPergunta1B.Text = "b) Buzz Aldrin";
-            this.rdbPergunta1B.UseVisualStyleBackColor = true;
-            // 
-            // rdbPergunta1C
-            // 
-            this.rdbPergunta1C.AutoSize = true;
-            this.rdbPergunta1C.Location = new System.Drawing.Point(268, 130);
-            this.rdbPergunta1C.Name = "rdbPergunta1C";
-            this.rdbPergunta1C.Size = new System.Drawing.Size(107, 17);
-            this.rdbPergunta1C.TabIndex = 2;
-            this.rdbPergunta1C.Text = "c) Michael Collins";
-            this.rdbPergunta1C.UseVisualStyleBackColor = true;
-            // 
-            // grbPergunta2
-            // 
-            this.grbPergunta2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grbPergunta2.Controls.Add(this.rdbPergunta2B);
-            this.grbPergunta2.Controls.Add(this.rdbPergunta2C);
-            this.grbPergunta2.Controls.Add(this.rtbPergunta2);
-            this.grbPergunta2.Controls.Add(this.rdbPergunta2A);
-            this.grbPergunta2.Location = new System.Drawing.Point(561, 110);
-            this.grbPergunta2.Name = "grbPergunta2";
-            this.grbPergunta2.Size = new System.Drawing.Size(490, 153);
-            this.grbPergunta2.TabIndex = 4;
-            this.grbPergunta2.TabStop = false;
-            this.grbPergunta2.Text = "Pergunta 2";
-            // 
-            // rdbPergunta2B
-            // 
-            this.rdbPergunta2B.AutoSize = true;
-            this.rdbPergunta2B.Location = new System.Drawing.Point(159, 130);
-            this.rdbPergunta2B.Name = "rdbPergunta2B";
-            this.rdbPergunta2B.Size = new System.Drawing.Size(141, 17);
-            this.rdbPergunta2B.TabIndex = 3;
-            this.rdbPergunta2B.Text = "b) Piloto do módulo lunar";
-            this.rdbPergunta2B.UseVisualStyleBackColor = true;
-            // 
-            // rdbPergunta2C
-            // 
-            this.rdbPergunta2C.AutoSize = true;
-            this.rdbPergunta2C.Location = new System.Drawing.Point(306, 130);
-            this.rdbPergunta2C.Name = "rdbPergunta2C";
-            this.rdbPergunta2C.Size = new System.Drawing.Size(177, 17);
-            this.rdbPergunta2C.TabIndex = 2;
-            this.rdbPergunta2C.Text = "c) Piloto do módulo de comando";
-            this.rdbPergunta2C.UseVisualStyleBackColor = true;
-            // 
-            // rtbPergunta2
-            // 
-            this.rtbPergunta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.rtbPergunta2.Location = new System.Drawing.Point(6, 28);
-            this.rtbPergunta2.Name = "rtbPergunta2";
-            this.rtbPergunta2.ReadOnly = true;
-            this.rtbPergunta2.Size = new System.Drawing.Size(472, 96);
-            this.rtbPergunta2.TabIndex = 0;
-            this.rtbPergunta2.Text = "Qual era o papel de Michael Collins na missão Apollo 11?";
-            // 
-            // rdbPergunta2A
-            // 
-            this.rdbPergunta2A.AutoSize = true;
-            this.rdbPergunta2A.Checked = true;
-            this.rdbPergunta2A.Location = new System.Drawing.Point(6, 130);
-            this.rdbPergunta2A.Name = "rdbPergunta2A";
-            this.rdbPergunta2A.Size = new System.Drawing.Size(147, 17);
-            this.rdbPergunta2A.TabIndex = 1;
-            this.rdbPergunta2A.TabStop = true;
-            this.rdbPergunta2A.Text = "a) Comandante da missão";
-            this.rdbPergunta2A.UseVisualStyleBackColor = true;
-            // 
-            // grbPergunta4
-            // 
-            this.grbPergunta4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grbPergunta4.Controls.Add(this.rdbPergunta4B);
-            this.grbPergunta4.Controls.Add(this.rdbPergunta4C);
-            this.grbPergunta4.Controls.Add(this.rtbPergunta4);
-            this.grbPergunta4.Controls.Add(this.rdbPergunta4A);
-            this.grbPergunta4.Location = new System.Drawing.Point(561, 334);
-            this.grbPergunta4.Name = "grbPergunta4";
-            this.grbPergunta4.Size = new System.Drawing.Size(490, 153);
-            this.grbPergunta4.TabIndex = 4;
-            this.grbPergunta4.TabStop = false;
-            this.grbPergunta4.Text = "Pergunta 4";
-            // 
-            // rdbPergunta4B
-            // 
-            this.rdbPergunta4B.AutoSize = true;
-            this.rdbPergunta4B.Location = new System.Drawing.Point(136, 130);
-            this.rdbPergunta4B.Name = "rdbPergunta4B";
-            this.rdbPergunta4B.Size = new System.Drawing.Size(89, 17);
-            this.rdbPergunta4B.TabIndex = 3;
-            this.rdbPergunta4B.Text = "b) Buzz Aldrin";
-            this.rdbPergunta4B.UseVisualStyleBackColor = true;
-            // 
-            // rdbPergunta4C
-            // 
-            this.rdbPergunta4C.AutoSize = true;
-            this.rdbPergunta4C.Location = new System.Drawing.Point(268, 130);
-            this.rdbPergunta4C.Name = "rdbPergunta4C";
-            this.rdbPergunta4C.Size = new System.Drawing.Size(105, 17);
-            this.rdbPergunta4C.TabIndex = 2;
-            this.rdbPergunta4C.Text = "c) Neil Armstrong";
-            this.rdbPergunta4C.UseVisualStyleBackColor = true;
-            // 
-            // rtbPergunta4
-            // 
-            this.rtbPergunta4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.rtbPergunta4.Location = new System.Drawing.Point(6, 28);
-            this.rtbPergunta4.Name = "rtbPergunta4";
-            this.rtbPergunta4.ReadOnly = true;
-            this.rtbPergunta4.Size = new System.Drawing.Size(472, 96);
-            this.rtbPergunta4.TabIndex = 0;
-            this.rtbPergunta4.Text = "Qual era o nome do piloto do módulo lunar na missão Apollo 11?";
-            // 
-            // rdbPergunta4A
-            // 
-            this.rdbPergunta4A.AutoSize = true;
-            this.rdbPergunta4A.Checked = true;
-            this.rdbPergunta4A.Location = new System.Drawing.Point(6, 130);
-            this.rdbPergunta4A.Name = "rdbPergunta4A";
-            this.rdbPergunta4A.Size = new System.Drawing.Size(107, 17);
-            this.rdbPergunta4A.TabIndex = 1;
-            this.rdbPergunta4A.TabStop = true;
-            this.rdbPergunta4A.Text = "a) Michael Collins";
-            this.rdbPergunta4A.UseVisualStyleBackColor = true;
-            // 
-            // grbPergunta3
-            // 
-            this.grbPergunta3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grbPergunta3.Controls.Add(this.rdbPergunta3B);
-            this.grbPergunta3.Controls.Add(this.rdbPergunta3C);
-            this.grbPergunta3.Controls.Add(this.rtbPergunta3);
-            this.grbPergunta3.Controls.Add(this.rdbPergunta3A);
-            this.grbPergunta3.Location = new System.Drawing.Point(62, 334);
-            this.grbPergunta3.Name = "grbPergunta3";
-            this.grbPergunta3.Size = new System.Drawing.Size(439, 153);
-            this.grbPergunta3.TabIndex = 4;
-            this.grbPergunta3.TabStop = false;
-            this.grbPergunta3.Text = "Pergunta 3";
-            // 
-            // rdbPergunta3B
-            // 
-            this.rdbPergunta3B.AutoSize = true;
-            this.rdbPergunta3B.Location = new System.Drawing.Point(136, 130);
-            this.rdbPergunta3B.Name = "rdbPergunta3B";
-            this.rdbPergunta3B.Size = new System.Drawing.Size(120, 17);
-            this.rdbPergunta3B.TabIndex = 3;
-            this.rdbPergunta3B.Text = "b) Foguete Saturn V";
-            this.rdbPergunta3B.UseVisualStyleBackColor = true;
-            // 
-            // rdbPergunta3C
-            // 
-            this.rdbPergunta3C.AutoSize = true;
-            this.rdbPergunta3C.Location = new System.Drawing.Point(268, 130);
-            this.rdbPergunta3C.Name = "rdbPergunta3C";
-            this.rdbPergunta3C.Size = new System.Drawing.Size(108, 17);
-            this.rdbPergunta3C.TabIndex = 2;
-            this.rdbPergunta3C.Text = "c) Foguete Soyuz";
-            this.rdbPergunta3C.UseVisualStyleBackColor = true;
-            // 
-            // rtbPergunta3
-            // 
-            this.rtbPergunta3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.rtbPergunta3.Location = new System.Drawing.Point(6, 28);
-            this.rtbPergunta3.Name = "rtbPergunta3";
-            this.rtbPergunta3.ReadOnly = true;
-            this.rtbPergunta3.Size = new System.Drawing.Size(413, 96);
-            this.rtbPergunta3.TabIndex = 0;
-            this.rtbPergunta3.Text = "Qual foi o veículo de lançamento usado na missão Apollo 11?";
-            // 
-            // rdbPergunta3A
-            // 
-            this.rdbPergunta3A.AutoSize = true;
-            this.rdbPergunta3A.Checked = true;
-            this.rdbPergunta3A.Location = new System.Drawing.Point(6, 130);
-            this.rdbPergunta3A.Name = "rdbPergunta3A";
-            this.rdbPergunta3A.Size = new System.Drawing.Size(113, 17);
-            this.rdbPergunta3A.TabIndex = 1;
-            this.rdbPergunta3A.TabStop = true;
-            this.rdbPergunta3A.Text = "a) Ônibus Espacial";
-            this.rdbPergunta3A.UseVisualStyleBackColor = true;
-            // 
-            // grbPergunta5
-            // 
-            this.grbPergunta5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.grbPergunta5.Controls.Add(this.rdbPergunta5B);
-            this.grbPergunta5.Controls.Add(this.rdbPergunta5C);
-            this.grbPergunta5.Controls.Add(this.rtbPergunta5);
-            this.grbPergunta5.Controls.Add(this.rdbPergunta5A);
-            this.grbPergunta5.Location = new System.Drawing.Point(293, 523);
-            this.grbPergunta5.Name = "grbPergunta5";
-            this.grbPergunta5.Size = new System.Drawing.Size(465, 153);
-            this.grbPergunta5.TabIndex = 4;
-            this.grbPergunta5.TabStop = false;
-            this.grbPergunta5.Text = "Pergunta 5";
-            // 
-            // rdbPergunta5B
-            // 
-            this.rdbPergunta5B.AutoSize = true;
-            this.rdbPergunta5B.Location = new System.Drawing.Point(136, 130);
-            this.rdbPergunta5B.Name = "rdbPergunta5B";
-            this.rdbPergunta5B.Size = new System.Drawing.Size(89, 17);
-            this.rdbPergunta5B.TabIndex = 3;
-            this.rdbPergunta5B.Text = "b) Buzz Aldrin";
-            this.rdbPergunta5B.UseVisualStyleBackColor = true;
-            // 
-            // rdbPergunta5C
-            // 
-            this.rdbPergunta5C.AutoSize = true;
-            this.rdbPergunta5C.Location = new System.Drawing.Point(268, 130);
-            this.rdbPergunta5C.Name = "rdbPergunta5C";
-            this.rdbPergunta5C.Size = new System.Drawing.Size(107, 17);
-            this.rdbPergunta5C.TabIndex = 2;
-            this.rdbPergunta5C.Text = "c) Michael Collins";
-            this.rdbPergunta5C.UseVisualStyleBackColor = true;
-            // 
-            // rtbPergunta5
-            // 
-            this.rtbPergunta5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.rtbPergunta5.Location = new System.Drawing.Point(6, 28);
-            this.rtbPergunta5.Name = "rtbPergunta5";
-            this.rtbPergunta5.ReadOnly = true;
-            this.rtbPergunta5.Size = new System.Drawing.Size(438, 96);
-            this.rtbPergunta5.TabIndex = 0;
-            this.rtbPergunta5.Text = "Qual era o nome do piloto do módulo de comando na missão Apollo 11?";
-            // 
-            // rdbPergunta5A
-            // 
-            this.rdbPergunta5A.AutoSize = true;
-            this.rdbPergunta5A.Checked = true;
-            this.rdbPergunta5A.Location = new System.Drawing.Point(6, 130);
-            this.rdbPergunta5A.Name = "rdbPergunta5A";
-            this.rdbPergunta5A.Size = new System.Drawing.Size(105, 17);
-            this.rdbPergunta5A.TabIndex = 1;
-            this.rdbPergunta5A.TabStop = true;
-            this.rdbPergunta5A.Text = "a) Neil Armstrong";
-            this.rdbPergunta5A.UseVisualStyleBackColor = true;
             // 
             // btnFinalizar
             // 
             this.btnFinalizar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnFinalizar.BackColor = System.Drawing.Color.Transparent;
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFinalizar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinalizar.ForeColor = System.Drawing.Color.Cyan;
-            this.btnFinalizar.Location = new System.Drawing.Point(829, 626);
+            this.btnFinalizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizar.ForeColor = System.Drawing.Color.White;
+            this.btnFinalizar.Location = new System.Drawing.Point(616, 713);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(200, 50);
             this.btnFinalizar.TabIndex = 7;
@@ -359,79 +95,543 @@
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnVoltar.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.ForeColor = System.Drawing.Color.Cyan;
-            this.btnVoltar.Location = new System.Drawing.Point(24, 626);
+            this.btnVoltar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Location = new System.Drawing.Point(12, 105);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(200, 50);
+            this.btnVoltar.Size = new System.Drawing.Size(68, 50);
             this.btnVoltar.TabIndex = 8;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
+            // rtbPergunta1
+            // 
+            this.rtbPergunta1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta1.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta1.Location = new System.Drawing.Point(216, 219);
+            this.rtbPergunta1.Name = "rtbPergunta1";
+            this.rtbPergunta1.ReadOnly = true;
+            this.rtbPergunta1.Size = new System.Drawing.Size(336, 43);
+            this.rtbPergunta1.TabIndex = 9;
+            this.rtbPergunta1.Text = " Michael Collins desempenhou um papel ativo\n na caminhada lunar durante a missão " +
+    "Apollo 11?";
+            // 
+            // lblPergunta1
+            // 
+            this.lblPergunta1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta1.AutoSize = true;
+            this.lblPergunta1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta1.Location = new System.Drawing.Point(292, 175);
+            this.lblPergunta1.Name = "lblPergunta1";
+            this.lblPergunta1.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta1.TabIndex = 10;
+            this.lblPergunta1.Text = "Pergunta Número 1";
+            // 
+            // btnSim1
+            // 
+            this.btnSim1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim1.Location = new System.Drawing.Point(216, 281);
+            this.btnSim1.Name = "btnSim1";
+            this.btnSim1.Size = new System.Drawing.Size(156, 44);
+            this.btnSim1.TabIndex = 11;
+            this.btnSim1.Text = "SIM";
+            this.btnSim1.UseVisualStyleBackColor = true;
+            this.btnSim1.Click += new System.EventHandler(this.btnSim1_Click);
+            // 
+            // btnNao1
+            // 
+            this.btnNao1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao1.BackColor = System.Drawing.SystemColors.Control;
+            this.btnNao1.Location = new System.Drawing.Point(390, 281);
+            this.btnNao1.Name = "btnNao1";
+            this.btnNao1.Size = new System.Drawing.Size(161, 44);
+            this.btnNao1.TabIndex = 12;
+            this.btnNao1.Text = "NÃO";
+            this.btnNao1.UseVisualStyleBackColor = false;
+            this.btnNao1.Click += new System.EventHandler(this.btnNao1_Click);
+            // 
+            // lblPergunta2
+            // 
+            this.lblPergunta2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta2.AutoSize = true;
+            this.lblPergunta2.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta2.Location = new System.Drawing.Point(292, 346);
+            this.lblPergunta2.Name = "lblPergunta2";
+            this.lblPergunta2.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta2.TabIndex = 14;
+            this.lblPergunta2.Text = "Pergunta Número 2";
+            // 
+            // rtbPergunta2
+            // 
+            this.rtbPergunta2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta2.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta2.Location = new System.Drawing.Point(216, 388);
+            this.rtbPergunta2.Name = "rtbPergunta2";
+            this.rtbPergunta2.ReadOnly = true;
+            this.rtbPergunta2.Size = new System.Drawing.Size(336, 47);
+            this.rtbPergunta2.TabIndex = 13;
+            this.rtbPergunta2.Text = "Buzz Aldrin foi o primeiro astronauta \na caminhar na Lua durante a missão Apollo " +
+    "11?";
+            // 
+            // lblPergunta3
+            // 
+            this.lblPergunta3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta3.AutoSize = true;
+            this.lblPergunta3.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta3.Location = new System.Drawing.Point(292, 544);
+            this.lblPergunta3.Name = "lblPergunta3";
+            this.lblPergunta3.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta3.TabIndex = 18;
+            this.lblPergunta3.Text = "Pergunta Número 3";
+            // 
+            // rtbPergunta3
+            // 
+            this.rtbPergunta3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta3.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta3.Location = new System.Drawing.Point(216, 589);
+            this.rtbPergunta3.Name = "rtbPergunta3";
+            this.rtbPergunta3.ReadOnly = true;
+            this.rtbPergunta3.Size = new System.Drawing.Size(366, 47);
+            this.rtbPergunta3.TabIndex = 17;
+            this.rtbPergunta3.Text = "Neil Armstrong foi o comandante da missão Apollo 11?";
+            // 
+            // btnNao4
+            // 
+            this.btnNao4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao4.Location = new System.Drawing.Point(1009, 281);
+            this.btnNao4.Name = "btnNao4";
+            this.btnNao4.Size = new System.Drawing.Size(149, 44);
+            this.btnNao4.TabIndex = 24;
+            this.btnNao4.Text = "NÃO";
+            this.btnNao4.UseVisualStyleBackColor = true;
+            this.btnNao4.Click += new System.EventHandler(this.btnNao4_Click);
+            // 
+            // btnSim4
+            // 
+            this.btnSim4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim4.Location = new System.Drawing.Point(835, 281);
+            this.btnSim4.Name = "btnSim4";
+            this.btnSim4.Size = new System.Drawing.Size(156, 44);
+            this.btnSim4.TabIndex = 23;
+            this.btnSim4.Text = "SIM";
+            this.btnSim4.UseVisualStyleBackColor = true;
+            this.btnSim4.Click += new System.EventHandler(this.btnSim4_Click);
+            // 
+            // lblPergunta4
+            // 
+            this.lblPergunta4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta4.AutoSize = true;
+            this.lblPergunta4.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta4.Location = new System.Drawing.Point(911, 175);
+            this.lblPergunta4.Name = "lblPergunta4";
+            this.lblPergunta4.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta4.TabIndex = 22;
+            this.lblPergunta4.Text = "Pergunta Número 4";
+            // 
+            // rtbPergunta4
+            // 
+            this.rtbPergunta4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta4.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta4.Location = new System.Drawing.Point(767, 219);
+            this.rtbPergunta4.Name = "rtbPergunta4";
+            this.rtbPergunta4.ReadOnly = true;
+            this.rtbPergunta4.Size = new System.Drawing.Size(433, 43);
+            this.rtbPergunta4.TabIndex = 21;
+            this.rtbPergunta4.Text = "O foguete Saturn V foi usado para lançar as missões Apollo à Lua?";
+            // 
+            // lblPergunta5
+            // 
+            this.lblPergunta5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta5.AutoSize = true;
+            this.lblPergunta5.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta5.Location = new System.Drawing.Point(911, 346);
+            this.lblPergunta5.Name = "lblPergunta5";
+            this.lblPergunta5.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta5.TabIndex = 26;
+            this.lblPergunta5.Text = "Pergunta Número 5";
+            // 
+            // rtbPergunta5
+            // 
+            this.rtbPergunta5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta5.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta5.Location = new System.Drawing.Point(767, 388);
+            this.rtbPergunta5.Name = "rtbPergunta5";
+            this.rtbPergunta5.ReadOnly = true;
+            this.rtbPergunta5.Size = new System.Drawing.Size(433, 47);
+            this.rtbPergunta5.TabIndex = 25;
+            this.rtbPergunta5.Text = "\tA missão Apollo 11 pousou na Lua em julho de 1969?";
+            // 
+            // lblPergunta6
+            // 
+            this.lblPergunta6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPergunta6.AutoSize = true;
+            this.lblPergunta6.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPergunta6.Location = new System.Drawing.Point(911, 544);
+            this.lblPergunta6.Name = "lblPergunta6";
+            this.lblPergunta6.Size = new System.Drawing.Size(211, 33);
+            this.lblPergunta6.TabIndex = 30;
+            this.lblPergunta6.Text = "Pergunta Número 6";
+            // 
+            // rtbPergunta6
+            // 
+            this.rtbPergunta6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rtbPergunta6.Font = new System.Drawing.Font("Sitka Text", 9.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPergunta6.Location = new System.Drawing.Point(767, 589);
+            this.rtbPergunta6.Name = "rtbPergunta6";
+            this.rtbPergunta6.ReadOnly = true;
+            this.rtbPergunta6.Size = new System.Drawing.Size(433, 47);
+            this.rtbPergunta6.TabIndex = 29;
+            this.rtbPergunta6.Text = "\tMichael Collins permaneceu em órbita lunar enquanto \n\tArmstrong e Aldrin explora" +
+    "vam a superfície da Lua?";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(536, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(303, 46);
+            this.label3.TabIndex = 33;
+            this.label3.Text = "QUIZ ESPACIAL";
+            // 
+            // btnNao5
+            // 
+            this.btnNao5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao5.Location = new System.Drawing.Point(1009, 439);
+            this.btnNao5.Name = "btnNao5";
+            this.btnNao5.Size = new System.Drawing.Size(149, 44);
+            this.btnNao5.TabIndex = 37;
+            this.btnNao5.Text = "NÃO";
+            this.btnNao5.UseVisualStyleBackColor = true;
+            this.btnNao5.Click += new System.EventHandler(this.btnNao5_Click);
+            // 
+            // btnSim5
+            // 
+            this.btnSim5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim5.Location = new System.Drawing.Point(835, 439);
+            this.btnSim5.Name = "btnSim5";
+            this.btnSim5.Size = new System.Drawing.Size(156, 44);
+            this.btnSim5.TabIndex = 36;
+            this.btnSim5.Text = "SIM";
+            this.btnSim5.UseVisualStyleBackColor = true;
+            this.btnSim5.Click += new System.EventHandler(this.btnSim5_Click);
+            // 
+            // btnNao2
+            // 
+            this.btnNao2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao2.Location = new System.Drawing.Point(390, 439);
+            this.btnNao2.Name = "btnNao2";
+            this.btnNao2.Size = new System.Drawing.Size(161, 44);
+            this.btnNao2.TabIndex = 35;
+            this.btnNao2.Text = "NÃO";
+            this.btnNao2.UseVisualStyleBackColor = true;
+            this.btnNao2.Click += new System.EventHandler(this.btnNao2_Click);
+            // 
+            // btnSim2
+            // 
+            this.btnSim2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim2.Location = new System.Drawing.Point(216, 439);
+            this.btnSim2.Name = "btnSim2";
+            this.btnSim2.Size = new System.Drawing.Size(156, 44);
+            this.btnSim2.TabIndex = 34;
+            this.btnSim2.Text = "SIM";
+            this.btnSim2.UseVisualStyleBackColor = true;
+            this.btnSim2.Click += new System.EventHandler(this.btnSim2_Click);
+            // 
+            // btnNao6
+            // 
+            this.btnNao6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao6.Location = new System.Drawing.Point(1009, 642);
+            this.btnNao6.Name = "btnNao6";
+            this.btnNao6.Size = new System.Drawing.Size(149, 44);
+            this.btnNao6.TabIndex = 41;
+            this.btnNao6.Text = "NÃO";
+            this.btnNao6.UseVisualStyleBackColor = true;
+            this.btnNao6.Click += new System.EventHandler(this.btnNao6_Click);
+            // 
+            // btnSim6
+            // 
+            this.btnSim6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim6.Location = new System.Drawing.Point(835, 642);
+            this.btnSim6.Name = "btnSim6";
+            this.btnSim6.Size = new System.Drawing.Size(156, 44);
+            this.btnSim6.TabIndex = 40;
+            this.btnSim6.Text = "SIM";
+            this.btnSim6.UseVisualStyleBackColor = true;
+            this.btnSim6.Click += new System.EventHandler(this.btnSim6_Click);
+            // 
+            // btnNao3
+            // 
+            this.btnNao3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnNao3.Location = new System.Drawing.Point(390, 642);
+            this.btnNao3.Name = "btnNao3";
+            this.btnNao3.Size = new System.Drawing.Size(161, 44);
+            this.btnNao3.TabIndex = 39;
+            this.btnNao3.Text = "NÃO";
+            this.btnNao3.UseVisualStyleBackColor = true;
+            this.btnNao3.Click += new System.EventHandler(this.btnNao3_Click);
+            // 
+            // btnSim3
+            // 
+            this.btnSim3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSim3.Location = new System.Drawing.Point(216, 642);
+            this.btnSim3.Name = "btnSim3";
+            this.btnSim3.Size = new System.Drawing.Size(156, 44);
+            this.btnSim3.TabIndex = 38;
+            this.btnSim3.Text = "SIM";
+            this.btnSim3.UseVisualStyleBackColor = true;
+            this.btnSim3.Click += new System.EventHandler(this.btnSim3_Click);
+            // 
+            // lblPontuacao
+            // 
+            this.lblPontuacao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPontuacao.AutoSize = true;
+            this.lblPontuacao.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPontuacao.Location = new System.Drawing.Point(593, 82);
+            this.lblPontuacao.Name = "lblPontuacao";
+            this.lblPontuacao.Size = new System.Drawing.Size(210, 32);
+            this.lblPontuacao.TabIndex = 42;
+            this.lblPontuacao.Text = "Pontuação:  00";
+            // 
+            // pgbPontuacao
+            // 
+            this.pgbPontuacao.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pgbPontuacao.Location = new System.Drawing.Point(592, 117);
+            this.pgbPontuacao.Name = "pgbPontuacao";
+            this.pgbPontuacao.Size = new System.Drawing.Size(211, 21);
+            this.pgbPontuacao.TabIndex = 44;
+            // 
+            // pcbIndicador9
+            // 
+            this.pcbIndicador9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador9.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador9.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador9.Location = new System.Drawing.Point(572, 281);
+            this.pcbIndicador9.Name = "pcbIndicador9";
+            this.pcbIndicador9.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador9.TabIndex = 45;
+            this.pcbIndicador9.TabStop = false;
+            // 
+            // pcbIndicador8
+            // 
+            this.pcbIndicador8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador8.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador8.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador8.Location = new System.Drawing.Point(572, 439);
+            this.pcbIndicador8.Name = "pcbIndicador8";
+            this.pcbIndicador8.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador8.TabIndex = 46;
+            this.pcbIndicador8.TabStop = false;
+            // 
+            // pcbIndicador6
+            // 
+            this.pcbIndicador6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador6.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador6.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador6.Location = new System.Drawing.Point(572, 642);
+            this.pcbIndicador6.Name = "pcbIndicador6";
+            this.pcbIndicador6.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador6.TabIndex = 47;
+            this.pcbIndicador6.TabStop = false;
+            // 
+            // pcbIndicador2
+            // 
+            this.pcbIndicador2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador2.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador2.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador2.Location = new System.Drawing.Point(1175, 642);
+            this.pcbIndicador2.Name = "pcbIndicador2";
+            this.pcbIndicador2.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador2.TabIndex = 50;
+            this.pcbIndicador2.TabStop = false;
+            // 
+            // pcbIndicador3
+            // 
+            this.pcbIndicador3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador3.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador3.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador3.Location = new System.Drawing.Point(1175, 439);
+            this.pcbIndicador3.Name = "pcbIndicador3";
+            this.pcbIndicador3.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador3.TabIndex = 49;
+            this.pcbIndicador3.TabStop = false;
+            // 
+            // pcbIndicador4
+            // 
+            this.pcbIndicador4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador4.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador4.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador4.Location = new System.Drawing.Point(1175, 281);
+            this.pcbIndicador4.Name = "pcbIndicador4";
+            this.pcbIndicador4.Size = new System.Drawing.Size(100, 44);
+            this.pcbIndicador4.TabIndex = 48;
+            this.pcbIndicador4.TabStop = false;
+            // 
+            // pcbIndicador7
+            // 
+            this.pcbIndicador7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pcbIndicador7.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador7.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador7.Location = new System.Drawing.Point(86, 112);
+            this.pcbIndicador7.Name = "pcbIndicador7";
+            this.pcbIndicador7.Size = new System.Drawing.Size(46, 33);
+            this.pcbIndicador7.TabIndex = 53;
+            this.pcbIndicador7.TabStop = false;
+            // 
+            // pcbIndicador1
+            // 
+            this.pcbIndicador1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pcbIndicador1.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador1.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador1.Location = new System.Drawing.Point(822, 713);
+            this.pcbIndicador1.Name = "pcbIndicador1";
+            this.pcbIndicador1.Size = new System.Drawing.Size(73, 50);
+            this.pcbIndicador1.TabIndex = 54;
+            this.pcbIndicador1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(12, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(68, 69);
+            this.button1.TabIndex = 51;
+            this.button1.Text = "Tela Inicial";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // pcbIndicador5
+            // 
+            this.pcbIndicador5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pcbIndicador5.BackColor = System.Drawing.Color.Transparent;
+            this.pcbIndicador5.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pcbIndicador5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbIndicador5.Location = new System.Drawing.Point(86, 28);
+            this.pcbIndicador5.Name = "pcbIndicador5";
+            this.pcbIndicador5.Size = new System.Drawing.Size(46, 43);
+            this.pcbIndicador5.TabIndex = 52;
+            this.pcbIndicador5.TabStop = false;
+            // 
             // FrmQuestionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Project_Pim.Properties.Resources.Galaxy;
+            this.BackgroundImage = global::Project_Pim.Properties.Resources.Galaxy2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1060, 775);
+            this.ClientSize = new System.Drawing.Size(1287, 775);
+            this.Controls.Add(this.pcbIndicador1);
+            this.Controls.Add(this.pcbIndicador7);
+            this.Controls.Add(this.pcbIndicador5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pcbIndicador2);
+            this.Controls.Add(this.pcbIndicador3);
+            this.Controls.Add(this.pcbIndicador4);
+            this.Controls.Add(this.pcbIndicador6);
+            this.Controls.Add(this.pcbIndicador8);
+            this.Controls.Add(this.pcbIndicador9);
+            this.Controls.Add(this.pgbPontuacao);
+            this.Controls.Add(this.lblPontuacao);
+            this.Controls.Add(this.btnNao6);
+            this.Controls.Add(this.btnSim6);
+            this.Controls.Add(this.btnNao3);
+            this.Controls.Add(this.btnSim3);
+            this.Controls.Add(this.btnNao5);
+            this.Controls.Add(this.btnSim5);
+            this.Controls.Add(this.btnNao2);
+            this.Controls.Add(this.btnSim2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblPergunta6);
+            this.Controls.Add(this.rtbPergunta6);
+            this.Controls.Add(this.lblPergunta5);
+            this.Controls.Add(this.rtbPergunta5);
+            this.Controls.Add(this.btnNao4);
+            this.Controls.Add(this.btnSim4);
+            this.Controls.Add(this.lblPergunta4);
+            this.Controls.Add(this.rtbPergunta4);
+            this.Controls.Add(this.lblPergunta3);
+            this.Controls.Add(this.rtbPergunta3);
+            this.Controls.Add(this.lblPergunta2);
+            this.Controls.Add(this.rtbPergunta2);
+            this.Controls.Add(this.btnNao1);
+            this.Controls.Add(this.btnSim1);
+            this.Controls.Add(this.lblPergunta1);
+            this.Controls.Add(this.rtbPergunta1);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnFinalizar);
-            this.Controls.Add(this.grbPergunta2);
-            this.Controls.Add(this.grbPergunta4);
-            this.Controls.Add(this.grbPergunta3);
-            this.Controls.Add(this.grbPergunta5);
-            this.Controls.Add(this.grbPergunta1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmQuestionario";
             this.Text = "FrmQuestionario";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.grbPergunta1.ResumeLayout(false);
-            this.grbPergunta1.PerformLayout();
-            this.grbPergunta2.ResumeLayout(false);
-            this.grbPergunta2.PerformLayout();
-            this.grbPergunta4.ResumeLayout(false);
-            this.grbPergunta4.PerformLayout();
-            this.grbPergunta3.ResumeLayout(false);
-            this.grbPergunta3.PerformLayout();
-            this.grbPergunta5.ResumeLayout(false);
-            this.grbPergunta5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox rtbPergunta1;
-        private System.Windows.Forms.RadioButton rdbPergunta1A;
-        private System.Windows.Forms.GroupBox grbPergunta1;
-        private System.Windows.Forms.GroupBox grbPergunta2;
-        private System.Windows.Forms.RadioButton rdbPergunta2B;
-        private System.Windows.Forms.RadioButton rdbPergunta2C;
-        private System.Windows.Forms.RichTextBox rtbPergunta2;
-        private System.Windows.Forms.RadioButton rdbPergunta2A;
-        private System.Windows.Forms.RadioButton rdbPergunta1B;
-        private System.Windows.Forms.RadioButton rdbPergunta1C;
-        private System.Windows.Forms.GroupBox grbPergunta4;
-        private System.Windows.Forms.RadioButton rdbPergunta4B;
-        private System.Windows.Forms.RadioButton rdbPergunta4C;
-        private System.Windows.Forms.RichTextBox rtbPergunta4;
-        private System.Windows.Forms.RadioButton rdbPergunta4A;
-        private System.Windows.Forms.GroupBox grbPergunta3;
-        private System.Windows.Forms.RadioButton rdbPergunta3B;
-        private System.Windows.Forms.RadioButton rdbPergunta3C;
-        private System.Windows.Forms.RichTextBox rtbPergunta3;
-        private System.Windows.Forms.RadioButton rdbPergunta3A;
-        private System.Windows.Forms.GroupBox grbPergunta5;
-        private System.Windows.Forms.RadioButton rdbPergunta5B;
-        private System.Windows.Forms.RadioButton rdbPergunta5C;
-        private System.Windows.Forms.RichTextBox rtbPergunta5;
-        private System.Windows.Forms.RadioButton rdbPergunta5A;
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Button btnVoltar;
+        private System.Windows.Forms.RichTextBox rtbPergunta1;
+        private System.Windows.Forms.Label lblPergunta1;
+        private System.Windows.Forms.Button btnSim1;
+        private System.Windows.Forms.Button btnNao1;
+        private System.Windows.Forms.Label lblPergunta2;
+        private System.Windows.Forms.RichTextBox rtbPergunta2;
+        private System.Windows.Forms.Label lblPergunta3;
+        private System.Windows.Forms.RichTextBox rtbPergunta3;
+        private System.Windows.Forms.Button btnNao4;
+        private System.Windows.Forms.Button btnSim4;
+        private System.Windows.Forms.Label lblPergunta4;
+        private System.Windows.Forms.RichTextBox rtbPergunta4;
+        private System.Windows.Forms.Label lblPergunta5;
+        private System.Windows.Forms.RichTextBox rtbPergunta5;
+        private System.Windows.Forms.Label lblPergunta6;
+        private System.Windows.Forms.RichTextBox rtbPergunta6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnNao5;
+        private System.Windows.Forms.Button btnSim5;
+        private System.Windows.Forms.Button btnNao2;
+        private System.Windows.Forms.Button btnSim2;
+        private System.Windows.Forms.Button btnNao6;
+        private System.Windows.Forms.Button btnSim6;
+        private System.Windows.Forms.Button btnNao3;
+        private System.Windows.Forms.Button btnSim3;
+        private System.Windows.Forms.Label lblPontuacao;
+        private System.Windows.Forms.ProgressBar pgbPontuacao;
+        private System.Windows.Forms.PictureBox pcbIndicador9;
+        private System.Windows.Forms.PictureBox pcbIndicador8;
+        private System.Windows.Forms.PictureBox pcbIndicador6;
+        private System.Windows.Forms.PictureBox pcbIndicador2;
+        private System.Windows.Forms.PictureBox pcbIndicador3;
+        private System.Windows.Forms.PictureBox pcbIndicador4;
+        private System.Windows.Forms.PictureBox pcbIndicador7;
+        private System.Windows.Forms.PictureBox pcbIndicador1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pcbIndicador5;
     }
 }
