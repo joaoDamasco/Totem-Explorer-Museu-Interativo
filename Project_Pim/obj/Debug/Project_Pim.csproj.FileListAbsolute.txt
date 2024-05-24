@@ -21,10 +21,7 @@ C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\bin
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\bin\Debug\Project_Pim.exe
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\bin\Debug\Project_Pim.pdb
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.csproj.AssemblyReference.cache
-C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmAdmin.resources
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmHistoria1.resources
-C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmHistoriaApollo.resources
-C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmHistoriaAstronauta.resources
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmMenu.resources
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmPesquisa.resources
 C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.FrmPrincipal.resources
@@ -112,3 +109,9 @@ C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim - Backup - Copia - Copia\P
 C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim - Backup - Copia - Copia\Project_Pim\obj\Debug\Project_Pim.csproj.CoreCompileInputs.cache
 C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim - Backup - Copia - Copia\Project_Pim\obj\Debug\Project_Pim.exe
 C:\Users\joao_\OneDrive\Área de Trabalho\Project_Pim - Backup - Copia - Copia\Project_Pim\obj\Debug\Project_Pim.pdb
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmHistoria2.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmQuestionario2.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmQuestionario3.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmQuestionario4.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmQuestionario5.resources
+C:\Users\joao_\OneDrive\Área de Trabalho\Git GitHub\Project_Pim\Project_Pim\obj\Debug\Project_Pim.Apresentacao.FrmQuestionario1.resources

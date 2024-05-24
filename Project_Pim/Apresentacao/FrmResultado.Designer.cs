@@ -78,7 +78,7 @@
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(239, 82);
             this.btnFinalizar.TabIndex = 46;
-            this.btnFinalizar.Text = "FINALIZAR VIAGEM";
+            this.btnFinalizar.Text = "ABRIR RELATÓRIO";
             this.btnFinalizar.UseVisualStyleBackColor = false;
             this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
