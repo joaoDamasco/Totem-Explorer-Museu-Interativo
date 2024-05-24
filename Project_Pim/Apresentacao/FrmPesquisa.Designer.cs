@@ -80,6 +80,7 @@
             this.pcbIndicador3 = new System.Windows.Forms.PictureBox();
             this.pcbIndicador5 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnApagarNumero = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbIndicador3)).BeginInit();
@@ -602,18 +603,18 @@
             this.btnEspaco.Name = "btnEspaco";
             this.btnEspaco.Size = new System.Drawing.Size(244, 39);
             this.btnEspaco.TabIndex = 42;
-            this.btnEspaco.Text = " ";
+            this.btnEspaco.Text = "______";
             this.btnEspaco.UseVisualStyleBackColor = false;
-            this.btnEspaco.Click += new System.EventHandler(this.btnLetra_Click);
+            this.btnEspaco.Click += new System.EventHandler(this.btnEspaco_Click);
             // 
             // btnApagar
             // 
             this.btnApagar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnApagar.BackColor = System.Drawing.Color.Transparent;
             this.btnApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagar.Location = new System.Drawing.Point(557, 342);
+            this.btnApagar.Location = new System.Drawing.Point(730, 149);
             this.btnApagar.Name = "btnApagar";
-            this.btnApagar.Size = new System.Drawing.Size(91, 39);
+            this.btnApagar.Size = new System.Drawing.Size(91, 31);
             this.btnApagar.TabIndex = 43;
             this.btnApagar.Text = "Apagar";
             this.btnApagar.UseVisualStyleBackColor = false;
@@ -624,9 +625,9 @@
             this.btnLimpar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnLimpar.BackColor = System.Drawing.Color.Transparent;
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(654, 342);
+            this.btnLimpar.Location = new System.Drawing.Point(735, 297);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(70, 39);
+            this.btnLimpar.Size = new System.Drawing.Size(86, 84);
             this.btnLimpar.TabIndex = 44;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = false;
@@ -677,9 +678,9 @@
             this.lblIdade.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIdade.Location = new System.Drawing.Point(266, 402);
             this.lblIdade.Name = "lblIdade";
-            this.lblIdade.Size = new System.Drawing.Size(418, 28);
+            this.lblIdade.Size = new System.Drawing.Size(427, 28);
             this.lblIdade.TabIndex = 48;
-            this.lblIdade.Text = "Digite sua idade clicando nos números";
+            this.lblIdade.Text = "Digite sua idade clicando nos números:";
             // 
             // lblNome
             // 
@@ -755,13 +756,27 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnApagarNumero
+            // 
+            this.btnApagarNumero.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnApagarNumero.BackColor = System.Drawing.Color.Transparent;
+            this.btnApagarNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApagarNumero.Location = new System.Drawing.Point(519, 432);
+            this.btnApagarNumero.Name = "btnApagarNumero";
+            this.btnApagarNumero.Size = new System.Drawing.Size(79, 39);
+            this.btnApagarNumero.TabIndex = 55;
+            this.btnApagarNumero.Text = "Apagar";
+            this.btnApagarNumero.UseVisualStyleBackColor = false;
+            this.btnApagarNumero.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FrmPesquisa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Project_Pim.Properties.Resources.Galaxy2;
+            this.BackgroundImage = global::Project_Pim.Properties.Resources.GalaxyTest3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(986, 650);
+            this.Controls.Add(this.btnApagarNumero);
             this.Controls.Add(this.pcbIndicador5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pcbIndicador3);
@@ -881,5 +896,6 @@
         private System.Windows.Forms.PictureBox pcbIndicador3;
         private System.Windows.Forms.PictureBox pcbIndicador5;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnApagarNumero;
     }
 }

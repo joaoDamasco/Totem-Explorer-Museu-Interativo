@@ -52,6 +52,12 @@
     <Compile Include="Apresentacao\FrmHistoria1.Designer.cs">
       <DependentUpon>FrmHistoria1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentacao\FrmHistoria2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmHistoria2.Designer.cs">
+      <DependentUpon>FrmHistoria2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apresentacao\FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,17 +82,56 @@
     <Compile Include="Apresentacao\FrmQuestionario.Designer.cs">
       <DependentUpon>FrmQuestionario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario2.Designer.cs">
+      <DependentUpon>FrmQuestionario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario3.Designer.cs">
+      <DependentUpon>FrmQuestionario3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario4.Designer.cs">
+      <DependentUpon>FrmQuestionario4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario5.Designer.cs">
+      <DependentUpon>FrmQuestionario5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentacao\FrmRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmRelatorio.Designer.cs">
+      <DependentUpon>FrmRelatorio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Apresentacao\FrmResultado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apresentacao\FrmResultado.Designer.cs">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentacao\FrmQuestionario1.Designer.cs">
+      <DependentUpon>FrmQuestionario1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modelo\Estatico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Apresentacao\FrmHistoria1.resx">
       <DependentUpon>FrmHistoria1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmHistoria2.resx">
+      <DependentUpon>FrmHistoria2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -100,8 +145,26 @@
     <EmbeddedResource Include="Apresentacao\FrmQuestionario.resx">
       <DependentUpon>FrmQuestionario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmQuestionario2.resx">
+      <DependentUpon>FrmQuestionario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmQuestionario3.resx">
+      <DependentUpon>FrmQuestionario3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmQuestionario4.resx">
+      <DependentUpon>FrmQuestionario4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmQuestionario5.resx">
+      <DependentUpon>FrmQuestionario5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmRelatorio.resx">
+      <DependentUpon>FrmRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmResultado.resx">
       <DependentUpon>FrmResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentacao\FrmQuestionario1.resx">
+      <DependentUpon>FrmQuestionario1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -179,6 +242,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Galaxy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuTest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuTest2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuTest3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuTest4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuTest5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalaxyTest1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalaxyTest2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalaxyTest3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

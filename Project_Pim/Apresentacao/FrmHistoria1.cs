@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Pim.Apresentacao;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,9 +20,9 @@ namespace Project_Pim
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            FrmQuestionario frmQuestionario = new FrmQuestionario();
+            FrmHistoria2 frmHistoria2 = new FrmHistoria2();
 
-            frmQuestionario.Visible = true;
+            frmHistoria2.Visible = true;
 
             this.Close();
         }

@@ -16,8 +16,8 @@ namespace Project_Pim
         public FrmQuestionario()
         {
             InitializeComponent();
-            // Define o valor máximo da barra de progresso como 6
-            pgbPontuacao.Maximum = 6;
+            // Define o valor máximo da barra de progresso como 5
+            pgbPontuacao.Maximum = 5;
         }
         private void btnVoltar_Click(object sender, EventArgs e)
         {
@@ -135,6 +135,21 @@ namespace Project_Pim
             btnNao6.BackColor = Color.Red;
             btnNao6.Enabled = false;
             btnSim6.Enabled = false;
+        }
+
+        private void pcbIndicador9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPergunta1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtbPergunta1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

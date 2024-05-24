@@ -117,26 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="rtbHistoria.Text" xml:space="preserve">
-    <value>Desenvolvimento do Foguete Saturn V: O foguete escolhido para lançar as missões Apollo à Lua foi o Saturn V, uma máquina colossal de três estágios, projetada para entregar uma carga útil massiva ao espaço. Desenvolvido pela equipe liderada por Wernher von Braun, o Saturn V era composto por uma primeira etapa movida a querosene, uma segunda etapa com propulsão a hidrogênio líquido e uma terceira etapa com propulsão a hidrogênio líquido.</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>
-A missão Apollo 11, liderada pela NASA em julho de 1969, foi a primeira a pousar seres humanos na Lua. Com Neil Armstrong, Buzz Aldrin e Michael Collins a bordo, o foguete Saturn V lançou a espaçonave em direção à Lua em 16 de julho. Após três dias de viagem, o módulo lunar "Eagle" pousou na região denominada Mar da Tranquilidade em 20 de julho. Armstrong desceu primeiro e proferiu a famosa frase "É um pequeno passo para o homem, um salto gigantesco para a humanidade". Aldrin juntou-se a ele pouco depois, enquanto Collins permaneceu em órbita lunar. Após cerca de duas horas e meia na superfície lunar, a equipe retornou à Terra, pousando no Oceano Pacífico em 24 de julho, encerrando com sucesso a histórica missão.</value>
-  </data>
-  <data name="rtbAstronauta1.Text" xml:space="preserve">
-    <value>Neil Armstrong: Como comandante da missão, Neil Armstrong foi escolhido para ser o primeiro ser humano a pisar na Lua. Ele já havia acumulado experiência como piloto de teste e astronauta da NASA, incluindo voos anteriores no programa Gemini.</value>
-  </data>
-  <data name="rtbAstronauta2.Text" xml:space="preserve">
-    <value>Buzz Aldrin: Edwin "Buzz" Aldrin, o piloto do módulo lunar, foi o segundo astronauta a caminhar na Lua. Ele contribuiu significativamente para o desenvolvimento das técnicas de acoplamento espacial durante o programa Gemini e trouxe sua expertise como piloto e cientista para a Apollo 11.</value>
-  </data>
-  <data name="rtbAstronauta3.Text" xml:space="preserve">
-    <value>Michael Collins: Como piloto do módulo de comando, Michael Collins desempenhou um papel crucial na missão Apollo 11, orbitando a Lua enquanto Armstrong e Aldrin exploravam sua superfície. Ele era um piloto experiente da Força Aérea dos Estados Unidos e já havia participado de missões espaciais anteriores.</value>
-  </data>
   <metadata name="pcbIndicador.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="btnTelaPrincipal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="lblHistori.Text" xml:space="preserve">
+    <value>O foguete Saturn V, desenvolvido pela equipe de Wernher von Braun, foi escolhido para lançar as missões Apollo à Lua. 
+Com três estágios, o foguete utilizava querosene na primeira etapa e hidrogênio líquido nas duas subsequentes.
+
+A missão Apollo 11, liderada pela NASA, foi a primeira a pousar seres humanos na Lua. Lançada em 16 de julho de 1969,
+ a espaçonave transportava Neil Armstrong, Buzz Aldrin e Michael Collins. Após três dias de viagem, o módulo lunar "Eagle"
+ pousou no Mar da Tranquilidade em 20 de julho. Armstrong foi o primeiro a descer, seguido por Aldrin, enquanto Collins 
+permaneceu em órbita lunar. Após cerca de duas horas e meia na superfície lunar, a equipe retornou à Terra, pousando no 
+Oceano Pacífico em 24 de julho, concluindo com sucesso a histórica missão.</value>
+  </data>
 </root>

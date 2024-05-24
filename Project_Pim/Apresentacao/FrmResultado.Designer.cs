@@ -52,6 +52,7 @@
             this.lblExelente = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pcbApontar = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaAmarela1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaBranca1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaBranca2)).BeginInit();
@@ -63,6 +64,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaBranca5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaAmarela5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbApontar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnFinalizar
@@ -347,13 +349,26 @@
             this.pcbApontar.TabIndex = 70;
             this.pcbApontar.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(766, 665);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 71;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmResultado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Project_Pim.Properties.Resources.Galaxy2;
+            this.BackgroundImage = global::Project_Pim.Properties.Resources.GalaxyTest3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1380, 788);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pcbApontar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblExelente);
@@ -394,6 +409,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaBranca5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbEstrelaAmarela5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbApontar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,5 +440,6 @@
         private System.Windows.Forms.Label lblExelente;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pcbApontar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

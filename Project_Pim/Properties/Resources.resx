@@ -118,14 +118,38 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="estrelaBranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\estrelaBranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apontando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Apontando1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apontando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuTest4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTest4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GalaxyTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxyTest2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuaPrincipal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuaPrincipal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTest3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foguete2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foguete2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GalaxyTest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxyTest1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuaMenu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuaMenu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LuaMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LuaMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,52 +157,58 @@
   <data name="Buzz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Buzz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="estrela" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\estrela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Galaxy21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LuaPrincipal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LuaPrincipal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ApolloLua" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ApolloLua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Michael" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Michael.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apollo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apollo11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="foguete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\foguete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Galaxy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Foguete2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Foguete2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apontando1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apontando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="LuaMenu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LuaMenu2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LuaMenu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LuaMenu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MenuTest5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTest5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LuaPrincipal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LuaPrincipal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuTest2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estrela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estrela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foguete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foguete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Menu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apontando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apontando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ApolloLua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ApolloLua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estrelaBranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estrelaBranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apollo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apollo11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Michael" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Michael.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GalaxyTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxyTest3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -102,7 +102,7 @@
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
             this.btnVoltar.Location = new System.Drawing.Point(12, 105);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(68, 50);
+            this.btnVoltar.Size = new System.Drawing.Size(76, 50);
             this.btnVoltar.TabIndex = 8;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
@@ -119,6 +119,7 @@
             this.rtbPergunta1.TabIndex = 9;
             this.rtbPergunta1.Text = " Michael Collins desempenhou um papel ativo\n na caminhada lunar durante a missão " +
     "Apollo 11?";
+            this.rtbPergunta1.TextChanged += new System.EventHandler(this.rtbPergunta1_TextChanged);
             // 
             // lblPergunta1
             // 
@@ -130,6 +131,7 @@
             this.lblPergunta1.Size = new System.Drawing.Size(211, 33);
             this.lblPergunta1.TabIndex = 10;
             this.lblPergunta1.Text = "Pergunta Número 1";
+            this.lblPergunta1.Click += new System.EventHandler(this.lblPergunta1_Click);
             // 
             // btnSim1
             // 
@@ -418,6 +420,7 @@
             this.pcbIndicador9.Size = new System.Drawing.Size(100, 44);
             this.pcbIndicador9.TabIndex = 45;
             this.pcbIndicador9.TabStop = false;
+            this.pcbIndicador9.Click += new System.EventHandler(this.pcbIndicador9_Click);
             // 
             // pcbIndicador8
             // 
@@ -485,7 +488,7 @@
             this.pcbIndicador7.BackColor = System.Drawing.Color.Transparent;
             this.pcbIndicador7.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
             this.pcbIndicador7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pcbIndicador7.Location = new System.Drawing.Point(86, 112);
+            this.pcbIndicador7.Location = new System.Drawing.Point(94, 117);
             this.pcbIndicador7.Name = "pcbIndicador7";
             this.pcbIndicador7.Size = new System.Drawing.Size(46, 33);
             this.pcbIndicador7.TabIndex = 53;
@@ -510,9 +513,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 15);
+            this.button1.Location = new System.Drawing.Point(12, 21);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 69);
+            this.button1.Size = new System.Drawing.Size(76, 69);
             this.button1.TabIndex = 51;
             this.button1.Text = "Tela Inicial";
             this.button1.UseVisualStyleBackColor = false;
@@ -523,7 +526,7 @@
             this.pcbIndicador5.BackColor = System.Drawing.Color.Transparent;
             this.pcbIndicador5.BackgroundImage = global::Project_Pim.Properties.Resources.Apontando1;
             this.pcbIndicador5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pcbIndicador5.Location = new System.Drawing.Point(86, 28);
+            this.pcbIndicador5.Location = new System.Drawing.Point(94, 38);
             this.pcbIndicador5.Name = "pcbIndicador5";
             this.pcbIndicador5.Size = new System.Drawing.Size(46, 43);
             this.pcbIndicador5.TabIndex = 52;
@@ -533,7 +536,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Project_Pim.Properties.Resources.Galaxy2;
+            this.BackgroundImage = global::Project_Pim.Properties.Resources.GalaxyTest3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1287, 775);
             this.Controls.Add(this.pcbIndicador1);
