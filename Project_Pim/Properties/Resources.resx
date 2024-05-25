@@ -121,11 +121,11 @@
   <data name="Apontando1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apontando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GalaxyTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxyTest3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MenuTest4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuTest4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GalaxyTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GalaxyTest2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LuaPrincipal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LuaPrincipal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +133,8 @@
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Galaxy21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Galaxy21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GalaxyTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxyTest2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MenuTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuTest3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,13 +202,16 @@
   <data name="Apollo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apollo11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Galaxy21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galaxy21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Michael" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Michael.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Galaxy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Galaxy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GalaxyTest3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GalaxyTest3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GalaxiaFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GalaxiaFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

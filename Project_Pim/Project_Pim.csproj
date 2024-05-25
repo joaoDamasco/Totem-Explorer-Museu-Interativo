@@ -76,12 +76,6 @@
     <Compile Include="Apresentacao\FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Apresentacao\FrmQuestionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Apresentacao\FrmQuestionario.Designer.cs">
-      <DependentUpon>FrmQuestionario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Apresentacao\FrmQuestionario2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,9 +135,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Apresentacao\FrmQuestionario.resx">
-      <DependentUpon>FrmQuestionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\FrmQuestionario2.resx">
       <DependentUpon>FrmQuestionario2.cs</DependentUpon>
@@ -269,6 +260,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GalaxyTest3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalaxiaFinal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

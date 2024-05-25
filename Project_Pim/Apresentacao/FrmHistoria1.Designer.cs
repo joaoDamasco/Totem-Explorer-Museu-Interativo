@@ -120,6 +120,7 @@
             // 
             // lblHistori
             // 
+            this.lblHistori.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHistori.AutoSize = true;
             this.lblHistori.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblHistori.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -147,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Project_Pim.Properties.Resources.GalaxyTest3;
+            this.BackgroundImage = global::Project_Pim.Properties.Resources.GalaxiaFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1316, 736);
             this.Controls.Add(this.label2);
